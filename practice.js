@@ -7,6 +7,7 @@ button.addEventListener("click", () => {
     h1.style.fontSize = "30px";
 });
 
-let name = "Abhinav";
-console.log("Hello " + name);
-console.log("I am learning Git branches");
+let arr = [1, 2, 3, 4, 5];
+arr.forEach((num) => {
+    console.log(num);
+});
